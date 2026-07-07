@@ -1,0 +1,139 @@
+/*==========================================================
+                    CALL TO ACTION
+==========================================================*/
+
+.cta{
+    padding:120px 0;
+    background:#f8fbff;
+}
+
+.cta-box{
+
+    background:var(--primary-gradient);
+
+    border-radius:30px;
+
+    padding:80px 50px;
+
+    text-align:center;
+
+    color:#fff;
+
+    box-shadow:0 25px 60px rgba(11,79,159,.20);
+
+    position:relative;
+
+    overflow:hidden;
+}
+
+.cta-box::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:300px;
+    height:300px;
+
+    background:rgba(255,255,255,.08);
+
+    border-radius:50%;
+
+    top:-120px;
+    right:-100px;
+}
+
+.cta-box::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:250px;
+    height:250px;
+
+    background:rgba(255,255,255,.06);
+
+    border-radius:50%;
+
+    bottom:-100px;
+    left:-80px;
+}
+
+.cta-box .section-badge{
+
+    background:rgba(255,255,255,.15);
+
+    color:#fff;
+
+    margin-bottom:25px;
+}
+
+.cta-box h2{
+
+    font-size:52px;
+
+    margin-bottom:20px;
+
+    position:relative;
+
+    z-index:2;
+}
+
+.cta-box p{
+
+    max-width:700px;
+
+    margin:0 auto 40px;
+
+    line-height:1.8;
+
+    font-size:18px;
+
+    position:relative;
+
+    z-index:2;
+}
+
+.cta-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+    position:relative;
+
+    z-index:2;
+}
+
+.cta-buttons .btn-primary{
+
+    background:#fff;
+
+    color:var(--primary-color);
+}
+
+.cta-buttons .btn-primary:hover{
+
+    transform:translateY(-4px);
+}
+
+.cta-buttons .btn-secondary{
+
+    background:transparent;
+
+    border:2px solid rgba(255,255,255,.4);
+
+    color:#fff;
+}
+
+.cta-buttons .btn-secondary:hover{
+
+    background:#fff;
+
+    color:var(--primary-color);
+}

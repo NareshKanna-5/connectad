@@ -1,0 +1,70 @@
+/* ConnectAD Design System */
+
+:root{
+
+    /* Brand Colors */
+
+    --primary-color: #0B4F9F;
+    --secondary-color: #E63946;
+
+    /* Neutral Colors */
+
+    --white: #FFFFFF;
+    --black: #000000;
+    --text-color: #333333;
+    --light-gray: #F8F9FA;
+    --border-color: #E5E5E5;
+
+    /* Gradient */
+
+    --primary-gradient: linear-gradient(
+        135deg,
+        #0B4F9F,
+        #E63946
+    );
+
+    /* Typography */
+
+    --font-family: "Poppins", sans-serif;
+
+    --font-small: 0.9rem;
+    --font-normal: 1rem;
+    --font-medium: 1.2rem;
+    --font-large: 2rem;
+    --font-xl: 3rem;
+
+
+    /* Font Weight */
+
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+
+    /* Spacing */
+
+    --space-xs: 5px;
+    --space-sm: 10px;
+    --space-md: 20px;
+    --space-lg: 40px;
+    --space-xl: 80px;
+
+    /* Border Radius */
+
+    --radius-small: 6px;
+    --radius-medium: 12px;
+    --radius-large: 20px;
+    --radius-pill: 50px;   
+
+
+    /* Shadows */
+
+    --shadow-light: 0 5px 15px rgba(0,0,0,0.08);
+    --shadow-medium: 0 10px 30px rgba(0,0,0,0.15);
+
+
+    /* Transition */
+    
+    --transition: all 0.3s ease;
+
+}
