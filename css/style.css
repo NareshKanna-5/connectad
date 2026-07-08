@@ -1,6 +1,13 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
+html,
+body{
+    width:100%;
+    overflow-x:hidden;
+}
+
+
 /* Reset */
 *{
     margin: 0;
@@ -178,9 +185,10 @@ ul{
 }
 
 .container{
-    width: min(1400px, 95%);
+    width: 100%;
+    max-width: 1400px;
     margin: auto;
-    padding: 20px 40px;
+    padding: 0 20px;
 }
 
 .hero-container{
@@ -482,8 +490,18 @@ ul{
 
     position:absolute;
     inset:0;
+    overflow: hidden;
     z-index:0;
     pointer-events:none;
+}
+
+img{
+
+    max-width:100%;
+
+    height:auto;
+
+    display:block;
 }
 
 .blob{
